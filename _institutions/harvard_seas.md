@@ -1,5 +1,5 @@
 ---
-layout: institution
+layout: page
 key: harvard_seas
 name: Harvard University
 location: Cambridge, MA, USA

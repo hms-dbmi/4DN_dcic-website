@@ -1,5 +1,5 @@
 ---
-layout: institution
+layout: page
 key: harvard_medical_school
 name: Harvard Medical School
 location: Boston, MA, USA

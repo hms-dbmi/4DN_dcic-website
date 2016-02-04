@@ -1,5 +1,5 @@
 ---
-layout: institution
+layout: page
 key: mit
 name: Massachusetts Institute of Technology
 location: Cambridge, MA

@@ -1,5 +1,5 @@
 ---
-layout: supporter
+layout: page
 agency: National Institutes of Health Common Fund
 key: 2015-nih-common-fund
 permalink: /funding/2015-nih-common-fund/

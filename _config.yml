@@ -11,8 +11,8 @@ facebook_page:
 license_url:
 safe: false
 lsi: false
-google_analytics: ""
-use_analytics: false
+google_analytics: "UA-73331142-1"
+use_analytics: true
 
 # Build settings
 markdown: kramdown

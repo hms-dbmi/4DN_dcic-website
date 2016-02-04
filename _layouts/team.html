@@ -18,7 +18,7 @@ layout: default
       {% for person in site.persons %}
       {% if person.role == "faculty") %}
       <p>
-      <img alt="{{ person.first_name }} {{ person.last_name }}" class="person-image-small" src="{{ person.image }}">
+      <img alt="{{ person.first_name }} {{ person.last_name }}" class="person-image-small" src="{{ site.baseurl }}{{ person.image }}">
       <a href="{{ person.website }}">{{ person.first_name }} {{ person.last_name }}</a> ({{ person.organization }})<br>{{ person.position }}
       </p>
       {% endif %}
@@ -29,7 +29,7 @@ layout: default
       {% for person in site.persons %}
       {% if person.role == "researcher") %}
       <p>
-      <img alt="{{ person.first_name }} {{ person.last_name }}" class="person-image-small" src="{{ person.image }}">
+      <img alt="{{ person.first_name }} {{ person.last_name }}" class="person-image-small" src="{{ site.baseurl }}{{ person.image }}">
       <a href="{{ person.website }}">{{ person.first_name }} {{ person.last_name }}</a> ({{ person.organization }})<br>{{ person.position }}
       </p>
       {% endif %}
@@ -40,7 +40,7 @@ layout: default
       {% for person in site.persons %}
       {% if person.role == "staff") %}
       <p>
-      <img alt="{{ person.first_name }} {{ person.last_name }}" class="person-image-small" src="{{ person.image }}">
+      <img alt="{{ person.first_name }} {{ person.last_name }}" class="person-image-small" src="{{ site.baseurl }}{{ person.image }}">
       <a href="{{ person.website }}">{{ person.first_name }} {{ person.last_name }}</a> ({{ person.organization }})<br>{{ person.position }}
       </p>
       {% endif %}

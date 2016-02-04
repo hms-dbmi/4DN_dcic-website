@@ -17,27 +17,22 @@
     {% include header.html %}
 
   <header class="home-title">
-    <h1>{{ page.title | remove: "| Caleydo" }}</h1>
+    <h1>{{ page.title | remove: "| 4DN DCIC" }}</h1>
   </header>
 
   <article class="home-content-main">
 
   <h1>About</h1>
 
- <p>Caleydo is an open source visual analysis framework targeted at biomolecular data. The biggest strength of Caleydo is the visualization of interdependencies between multiple datasets. Caleydo can load tabular data and groupings/clusterings. You can explore relationships between multiple groupings, between different datasets and see how your data maps onto pathways.
-   Caleydo has been successfully used to analyze mRNA, miRNA, methylation, copy number variation, mutation status and clinical data as well as other datset types.</p>
+  <p>The goals of the 4D Nucleome (4DN) Data Coordination and Integration Center (DCIC) are to collect, store, curate, display, and analyze data generated in the 4DN Network. Our team of investigators and staff has a track record in analysis of chromatin interaction data, image processing, data visualization, integrative analysis of genomic and epigenomic data, data portal development, large-scale computing, and development of secure and flexible Cloud technologies.</p>
 
- <p>All published parts of the software are available as open source. Developers and researchers that want to use or enhance the current tools are invited to contribute. See our <a href="https://github.com/Caleydo/">Github page</a>  for further details.</p>
+  <p>We will develop efficient submission pipelines for data and metadata from 4DN data production groups and we will define data/metadata requirements and quality metrics in conjunction with the production groups and ensure that high-quality, well-annotated data become available to the wider scientific community in a timely manner.</p>
 
-      <div class="Caleydosel">
-          <!--position: relative; top:-25px;-->
-          <div><center><a href="projects/pathways/"><img class="Caleydosel-image" data-lazy="assets/images/projects/pathways_lowRes.png" /><div style="font-weight: bold">Pathway Visualization.</div></a></center></div>
-        <div><center><a href="projects/stratomex/"><img class="Caleydosel-image" data-lazy="assets/images/projects/StratomeX_lowRes.png" /><div style="font-weight: bold">StratomeX</div></a></center></div>
-        <div><center><a href="projects/contour/"><img class="Caleydosel-image" data-lazy="assets/images/projects/2014_vast_contour.png"/><div style="font-weight: bold">ConTour</div></a></center></div>
-          <div><center><a href="projects/lineup/"><img class="Caleydosel-image" data-lazy="assets/images/projects/lineup_lowRes.png"/><div style="font-weight: bold">LineUp</div></a></center></div>
-          <div><center><a href="projects/domino/"><img class="Caleydosel-image" data-lazy="assets/images/projects/domino_lowRes.png"/><div style="font-weight: bold">Domino</div></a></center></div>
-      </div>
-  <h1>News <span class="right-icon"><a href="{{ site.baseurl }}/feed.xml"><i class="fa fa-rss"></i></a></span></h1>
+  <p>Furthermore, we will develop a user-friendly data portal for the broad scientific community. This portal will provide an easy-to-navigate interface for accessing raw and intermediate data files, allow for programmatic access via APIs, and will incorporate novel analysis and visualization tools developed by DCIC as well as other Network members. For computing and storage scalability and cost-effectiveness, significant efforts will be devoted to development and deployment of cloud-based technology. We will conduct tutorials and workshops to facilitate the use of 4DN data and tools by external investigators.</p>
+
+  <p>Finally, we will coordinate and assist in conducting integrative analysis of the multiple data types. These efforts will examine key questions in higher-order chromatin organization using both sequence and image data, and the tools and algorithms developed here will be incorporated into the data portal for use by other investigators. These three aims will ensure that the data generated in 4DN will have maximal impact for the scientific community.</p>
+
+   <h1>News <span class="right-icon">RSS Feed&nbsp;<a href="{{ site.baseurl }}/feed.xml"><i class="fa fa-rss"></i></a></span></h1>
 
   <ul class="post-list">
     {% for post in site.posts limit:4%}
@@ -54,51 +49,18 @@
   </ul>
   <p><a href="news">Earlier news ...</a></p>
 
-  <h1>Recent Publications</h1>
-  <ul class="publication-icon-list">
-      {% assign sorted_publications = (site.publications | sort: 'year' %}
-      {% for publication in sorted_publications reversed%}
-    {% if publication.year > 2013 %}
-    <li><a href="{{ site.baseurl }}{{ publication.url }}">{{ publication.title }}</a><br>{{publication.year}}</li>
-    {% endif %}
-  {% endfor %}
-  </ul>
-
   </article>
 
   <article class="home-content-aside">
     <h1>Partners</h1>
-    <ul class="institution-icon-list">
-      {% for institution in site.institutions reversed %}
+    <ul class="institution-list">
+      {% for institution in site.institutions %}
       <li><a href="{{ institution.website }}">{{ institution.name }}</a><br>{{ institution.location }}</li>
       {% endfor %}
     </ul>
 
-    <h1>Projects</h1>
-    <ul class="project-icon-list">
-      {% assign sorted_projects = (site.projects | sort: 'order' %}
-      {%for project in sorted_projects %}
-      {% if project.status == 'core' %}
-      <li><a href="{{ site.baseurl }}{{ project.url}}">{{ project.name }}</a><br>{{ project.title }}</li>
-      {% endif %}
-      {% endfor %}
-    </ul>
-    <ul class="project-icon-list">
-      {%for project in sorted_projects %}
-      {% if project.status == 'prototype' %}
-      <li><a href="{{ site.baseurl }}{{ project.url}}">{{ project.name }}</a><br>{{ project.title }}</li>
-      {% endif %}
-      {% endfor %}
-    </ul>
-
-    <h1>Latest Release</h1>
-    <ul class="release-icon-list">
-      <li><a href="{{ site.baseurl }}{{ site.releases.last.url}}">Caleydo {{ site.releases.last.version }}</a><br>{{ site.releases.last.date | date: "%-d %b %Y" }}</li>
-    </ul>
-
-
     <h1>Funding</h1>
-    <ul class="funding-icon-list">
+    <ul class="funding-list">
         {% assign sorted_grants = (site.funding | sort: 'agency' %}
         {% for grant in sorted_grants %}
       {% if grant.active != empty %}
@@ -108,6 +70,13 @@
       {% endif %}
       {% assign agency = grant.agency %}
       {% endfor %}
+    </ul>
+
+    <h1>Links</h1>
+    <ul class="project-list">
+      <li><a href="http://www.4dnucl.org">4D Nucleome Web Portal</a><br>Public Website</li>
+      <li><a href="http://wiki.4dnucl.org">4D Nucleome Member Wiki</a><br>Internal Wiki</li>
+      <li><a href="http://wiki.4dnucl.org">4D Nucleome @ Common Fund</a><br>National Institutes of Health</li>
     </ul>
   </article>
 
@@ -122,33 +91,6 @@
 {% if site.use_analytics == true %}
 {% include google_analytics.html %}
 {% endif %}
-
-<script language="JavaScript">
-    $(document).ready(function(){
-        $('.Caleydosel').slick({
-//            lazyLoad: 'progressive',
-            slidesToShow: 1,
-            slidesToScroll: 1,
-            autoplay: false,
-            autoplaySpeed: 4000,
-//            centerMode:true,
-//            centerPadding:'0%',
-            arrows:false,
-            dots:true,
-            speed:1000,
-            responsive: [
-                {
-                    breakpoint: 1024,
-                    settings: {
-                        slidesToShow: 1,
-                        slidesToScroll: 1,
-                        infinite: true
-                    }
-                }
-            ]
-    });
-    });
-</script>
 
 </body>
 </html>

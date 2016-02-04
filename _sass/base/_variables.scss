@@ -12,22 +12,23 @@ $base-border-radius: em(3);
 
 
 // Colors
-$blue: #477DCA;
+$blue: #326297; //#164F86;
 $dark-gray: #333;
+$accent1: #CC2036;
+$accent2: #BFD216;
 $medium-gray: #999;
 $light-gray: #DDD;
 $light-red: #FBE3E4;
 $light-yellow: #FFF6BF;
 $light-green: #E6EFC2;
 
-$home-color: #149747;
-$team-color: #3DB7DD;
-$project-color: #EB0021;
-$download-color: #F36229;
-$publication-color: #FDB938;
-$presentation-color: $download-color;
-$help-color: #B2B2B2;
-$neutral-color: $help-color;
+$home-color: $blue;
+$team-color: $blue;
+$project-color: $blue;
+$positions-color: $blue;
+$resources-color: $blue;
+$contact-color: $blue;
+$neutral-color: $contact-color;
 
 
 // Background Color
@@ -36,12 +37,12 @@ $base-body-color: white;
 
 // Font Colors
 $base-font-color: $dark-gray;
-$base-accent-color: $blue;
+$base-accent-color: black;
 
 // Link Colors
 $base-link-color: $base-accent-color;
 $hover-link-color: darken($base-accent-color, 15);
-$base-button-color: $base-link-color;
+$base-button-color: $accent1;
 $hover-button-color: $hover-link-color;
 
 // Border color

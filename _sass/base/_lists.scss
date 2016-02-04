@@ -17,13 +17,12 @@ ul, ol {
 }
 
 
-@mixin icon-list($color, $icon) {
+@mixin list($color) {
     margin: 0;
     padding: 0;
     list-style-type: none;
 
     li {
-      padding-left: 2em;
       padding-bottom: 0.5em;
       line-height: $base-font-size * 1.2;
       vertical-align: top;
@@ -35,12 +34,21 @@ ul, ol {
       min-height: 2.5em;
 
       a {        
-        font-weight: 700;
-        color: darken( $color, 20% );
+        font-weight: 400;
+        color: $color;
       }
       a:after{
          border-bottom-width: 0;
       }    
+    }
+  }
+
+
+@mixin icon-list($color, $icon) {
+    @include list($color);
+
+    li {
+      padding-left: 2em;
     }
     li:before {
       content: $icon;
@@ -56,29 +64,46 @@ ul, ol {
     }  
   }
 
+ul.project-list {
+  @include list($project-color);
+}
+
 ul.project-icon-list {
   @include icon-list($project-color,"\f013");
 }
 
-ul.release-icon-list {
-  @include icon-list($download-color,"\f019");
+ul.resources-icon-list {
+  @include icon-list($resources-color,"\f02d");
 }
 
-ul.publication-icon-list {
-  @include icon-list($publication-color,"\f02d");
+ul.resources-list {
+  @include list($resources-color);
 }
 
 ul.institution-icon-list {
   @include icon-list($team-color,"\f19c");
 }
 
+ul.institution-list {
+  @include list($team-color);
+}
+
 ul.person-icon-list {
   @include icon-list($team-color,"\f007");
+}
+
+ul.person-list {
+  @include list($team-color);
 }
 
 ul.funding-icon-list {
   @include icon-list($neutral-color,"\f024");
 }
+
+ul.funding-list {
+  @include list($neutral-color);
+}
+
 
 ul.source-icon-list {
   @include icon-list($neutral-color,"\f09b");

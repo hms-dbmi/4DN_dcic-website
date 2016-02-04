@@ -3,15 +3,10 @@ layout: default
 ---
 <div class="funding">
 
-  <header class="funding-title">
-    <h1>{{ page.title | remove: "| Caleydo" }}</h1>
-  </header>
-
   <article class="funding-content">
+    <h1>{{ page.title | remove: "| 4DN DCIC" }}</h1>
 
-
-    <p> Caleydo is supported by several funding agencies.</p>
-
+    <p>The 4D Nucleome Data Coordination and Integration Center is supported by the following grants.</p>
 
     <div class="cards">
 
@@ -28,13 +23,11 @@ layout: default
             <img src="../assets/images/grants/{{ grant.logo}}" alt="grant.name"
                  style="padding: 10px; height: 100px; width: auto; text-align: center">
             {% else %}
-            <img src="https://raw.githubusercontent.com/thoughtbot/refills/master/source/images/mountains.png"
-                 alt="">
             {% endif %}
           </a>
         </div>
         <div class="card-header">
-          {{ grant.title }}
+          <b>{{ grant.title }}</b>
         </div>
         <div class="card-copy">
           <p>Agency: {{ grant.agency }}</p>

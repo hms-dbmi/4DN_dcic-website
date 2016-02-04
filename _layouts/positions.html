@@ -1,0 +1,20 @@
+---
+layout: default
+---
+<div class="positions">
+
+  <header class="positions-title">
+    <h1>{{ page.title | remove: "| 4DN DCIC" }}</h1>
+  </header>
+
+  <article class="positions-content">
+    {{ content }}
+    <ul>
+    {% for position in site.positions %}
+      <li><a href="{{ site.baseurl }}{{ position.url }}">{{position.title}}</a> ({{position.site}})</li>
+    {% endfor %} 
+    </ul>
+
+  </article>
+
+</div>

@@ -1,21 +1,18 @@
 # Site settings
-title: Caleydo
-email: contact@caleydo.org
-description: "Caleydo: Visualization for BioMedicine."
+title: 4DN DCIC
+email: 4dn-dcic-contact@hms.harvard.edu
+description: "4D Nucleome Data Coordination and Integration Center"
 baseurl: ""
-url: "http://caleydo.github.io"
-twitter_username: caleydo_org
-github_username:  caleydo
-youtube_username: caleydotugraz
-facebook_page: Caleydo/110550618994500
-license_url: https://raw.githubusercontent.com/Caleydo/caleydo/develop/LICENSE
+url: "http://hms-dbmi.github.io/4DN_website"
+twitter_username:
+github_username:
+youtube_username:
+facebook_page:
+license_url:
 safe: false
 lsi: false
-plugins: ./_plugins
-google_analytics: "'UA-45998043-1'"
-use_analytics: true
-
-paper_content_url: http://data.caleydo.org/papers/
+google_analytics: ""
+use_analytics: false
 
 # Build settings
 markdown: kramdown
@@ -29,27 +26,12 @@ exclude: ["README.md", "Rakefile", "changelog.md", ".idea/", "Gemfile", "Gemfile
 
 # Collections
 collections:
-  projects:
+  positions:
     output: true
-    permalink: /projects/:path/
+    permalink: /positions/:path/
   persons:
     output: false
     permalink: /persons/:path/
-  publications:
-    output: true
-    permalink: /publications/:path/
-  thesis:
-    output: true
-    permalink: /thesis/:path/
-  releases:
-    output: true
-    permalink: /releases/:path/
-  videos:
-    output: false
-    permalink: /videos/:path/
-  datasets:
-    output: false
-    permalink: /datasets/:path/
   institutions:
     output: false
     permalink: /institutions/:path/

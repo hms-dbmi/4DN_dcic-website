@@ -1,44 +1,27 @@
 ---
-layout: page
-title: Contact | Caleydo
+layout: contact
+title: Contact | 4DN DCIC
 permalink: /contact/
 ---
+# Getting in Touch With Us
 
-We are happy to receive your feedback!
+We are happy to hear your feedback, suggestions, and ideas.
 
-### Email
+## Send Us an Email
 
-[contact@caleydo.org ](mailto:contact@caleydo.org)
+__General Inquiries__
+[Burak Alver](mailto:burak_alver@hms.harvard.edu) (Scientific Project Manager)
 
-### Street Address
+__Technical Issues__
+[4dn-dcic-technical@hms.harvard.edu](mailto:4dn-dcic-technical@hms.harvard.edu)
 
-Graz University of Technology
-Institute for Computer Graphics and Vision
-http://www.icg.tugraz.at/
-Inffeldgasse 16
-A-8010 Graz
-Austria
-Phone: +43 316 873 5011
-Fax: +43 316 873 5050	
 
-Johannes Kepler University Linz
-Institute of Computer Graphics
-http://www.cg.jku.at/
-Altenberger Straße 69 
-A-4040 Linz
-Austria
-Phone: +43 732 2468 6630
-Fax: +43 732 2468 6632
-
-Harvard School of Engineering and Applied Sciences
-Visual Computing Group
-http://vcg.seas.harvard.edu
-33 Oxford Street
-MA-02139, Cambridge
-USA
+## Visit Us in Person
 
 Harvard Medical School
-Center for Biomedical Informatics
+Department of Biomedical Informatics
 10 Shattuck Street
-MA-02115, Boston 
+Boston, MA 02115
 USA
+
+_If you are in the area and would like to stop by for a chat please don't hesitate to reach out to us._

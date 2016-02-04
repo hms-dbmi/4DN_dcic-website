@@ -1,7 +1,7 @@
 ---
 layout: funding
-title: Funding | Caleydo
+title: Funding | 4DN DCIC
 tag: funding
 permalink: /funding/
 ---
-
+# Funding

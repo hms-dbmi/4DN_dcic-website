@@ -1,21 +1,22 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:300,400,700,900,300italic,400italic,700italic,900italic|Patua+One|Vollkorn:400italic,700italic,400,700);
 @import url(http://fonts.googleapis.com/css?family=PT+Serif:400,700,400italic,700italic);
+@import url(https://fonts.googleapis.com/css?family=Fira+Sans:400,300,300italic,400italic,500,500italic,700,700italic);
 
-$sans-serif-font-family: Lato, Helvetica, sans-serif;
-$serif-font-family: Lato, Helvetica, sans-serif; //Vollkorn, Times, serif;
-$slab-font-family: Patua One, Helvetica, sans-serif;
+$sans-serif-font-family: Fira Sans, Helvetica, sans-serif;
+$serif-font-family: PT Serif, Helvetica, sans-serif; //Vollkorn, Times, serif;
+$slab-font-family: Fira Sans, Helvetica, sans-serif;
 
 $page-title-font-family: $sans-serif-font-family;
-$page-title-font-weight: 900;
+$page-title-font-weight: 300;
 $page-title-font-style: normal;
-$page-title-font-size: $base-font-size * 3;
+$page-title-font-size: $base-font-size;
 
 $content-title-font-family: $slab-font-family;
-$content-title-font-weight: 700;
+$content-title-font-weight: 300;
 $content-title-font-style: normal;
 
 $page-content-font-family: $serif-font-family;
-$page-content-font-weight: 400;
+$page-content-font-weight: 300;
 $page-content-font-style: normal;
 $page-content-font-size: 1em;
 
@@ -25,9 +26,9 @@ $footer-content-font-style: normal;
 $footer-content-font-size: .7em;
 
 $navigation-button-font-family: $sans-serif-font-family;
-$navigation-button-font-weight: 700;
+$navigation-button-font-weight: 300;
 $navigation-button-font-style: normal;
-$navigation-button-font-size: $base-font-size * 0.9;
+$navigation-button-font-size: $base-font-size * 1.2;
 
 
 body {
@@ -48,19 +49,19 @@ h1, h2, h3, h4, h5, h5 {
   font-family: $content-title-font-family;
   font-weight: $content-title-font-weight;
   font-style: $content-title-font-style;  
-  margin-bottom: 10px;
-  padding-left: 5px;
+  margin-bottom: 0px;
+  //padding-left: 5px;
   padding-bottom: 0px;
 }
 
 h1 {
   font-size: $base-font-size * 1.75; // 16 * 2.25 = 36px
-  border-bottom: 2px $light-gray solid;
+  //border-bottom: 1px $light-gray solid;
 }
 
 h2 {
   font-size: $base-font-size * 1.5; // 16 * 2 = 32px
-  border-bottom: 2px $light-gray solid;
+  //border-bottom: 1px $light-gray solid;
 }
 
 h3 {

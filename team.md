@@ -1,6 +1,6 @@
 ---
 layout: team
-title: Team | Caleydo
+title: Team | 4DN DCIC
 weight: 2
 tag: team
 permalink: /team/

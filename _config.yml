@@ -11,7 +11,7 @@ facebook_page:
 license_url:
 safe: false
 lsi: false
-google_analytics: "UA-73331142-1"
+google_analytics: "'UA-73331142-1'"
 use_analytics: true
 
 # Build settings

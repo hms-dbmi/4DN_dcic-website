@@ -1,6 +1,6 @@
-### Caleydo Website
+### 4DN DCIC Website
 
-The new Caleydo website built with [Jekyll](http://jekyllrb.com), [SASS](http://www.sass-lang.com), [Bourbon](http://bourbon.io), [Neat](http://neat.bourbon.io), and [Bitters](http://bitters.bourbon.io).
+The 4DN DCIC website is built with [Jekyll](http://jekyllrb.com), [SASS](http://www.sass-lang.com), [Bourbon](http://bourbon.io), [Neat](http://neat.bourbon.io), and [Bitters](http://bitters.bourbon.io).
 
 #### Ubuntu Prerequisites
 
@@ -39,14 +39,6 @@ $ gem install bitters
 ```
 Depending on your system your might have to run those as superuser using ```sudo```.
 
-### Jekyll Plugins
-
-- YouTube: https://gist.github.com/joelverhagen/1805814
-
 ### Liquid Syntax
 
 https://github.com/Shopify/liquid/wiki/Liquid-for-Designers
-
-### Windows Installation Instructions
-
-http://jekyll-windows.juthilo.com/1-ruby-and-devkit/

@@ -8,11 +8,13 @@ A Ruby installation is required to work with Jekyll.
 
 #### Setup
 
-Requires Jekyll 3.0.0 and the Github Pages configuration.
+Requires Jekyll 3.0.0 (or later) and the Github Pages configuration.
 
 ```ShellSession
 $ gem install github-pages
 ```
+
+Note that the above command will also install Jekyll.
 
 #### Generate and/or Serve Site
 

@@ -2,6 +2,7 @@
 layout: position
 key: software-developer-01
 title: Software Developer
+category: developer
 site: Harvard Medical School 
 detail_link: https://sjobs.brassring.com/tgwebhost/jobdetails.aspx?jobId=1191750&PartnerId=25240&SiteId=5341
 ---

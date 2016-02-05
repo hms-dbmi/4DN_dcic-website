@@ -9,9 +9,22 @@ layout: default
 
   <article class="positions-content">
     {{ content }}
+
+    <h2>Software Developers</h2>
     <ul>
     {% for position in site.positions %}
+    {% if position.category == "developer" %}
       <li><a href="{{ site.baseurl }}{{ position.url }}">{{position.title}}</a> ({{position.site}})</li>
+    {% endif %}
+    {% endfor %} 
+    </ul>
+
+    <h2>Data Curators</h2>
+    <ul>
+    {% for position in site.positions %}
+    {% if position.category == "curator" %}
+      <li><a href="{{ site.baseurl }}{{ position.url }}">{{position.title}}</a> ({{position.site}})</li>
+    {% endif %}
     {% endfor %} 
     </ul>
 

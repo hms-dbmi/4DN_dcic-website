@@ -1,6 +1,7 @@
 ---
 layout: position
 key: data-curator-01
+category: curator
 title: Data Curator
 site: Harvard Medical School 
 detail_link: https://sjobs.brassring.com/tgwebhost/jobdetails.aspx?jobId=1191743&PartnerId=25240&SiteId=5341&type=mail

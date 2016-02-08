@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Website Draft Released
+title:  Website Released
 date:   2016-02-03 18:00:00
 categories: event
 ---

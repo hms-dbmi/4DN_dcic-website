@@ -4,7 +4,8 @@ key: data-curator-01
 category: curator
 title: Data Curator
 site: Harvard Medical School 
-detail_link: https://sjobs.brassring.com/tgwebhost/jobdetails.aspx?jobId=1191743&PartnerId=25240&SiteId=5341&type=mail
+detail_link: https://sjobs.brassring.com/tgwebhost/jobdetails.aspx?jobId=1215502&PartnerId=25240&SiteId=5341&type=mail
+             
 ---
 # Duties & Responsibilities
 We are looking for a motivated and experienced Data Curator to join the Department of Biomedical Informatics at Harvard Medical School, for an exciting opportunity in steering how cutting-edge data from a new major NIH initiative will be collected, curated, and displayed.

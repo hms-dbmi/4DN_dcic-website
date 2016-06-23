@@ -24,6 +24,23 @@ layout: default
       {% endif %}
       {% endfor %}
 
+      <h1>Staff</h1>
+
+      {% for person in site.persons %}
+      {% if person.role == "staff") %}
+      <p>
+      <img alt="{{ person.first_name }} {{ person.last_name }}" class="person-image-small" src="{{ site.baseurl }}{{ person.image }}">
+      <a href="{{ person.website }}">{{ person.first_name }} {{ person.last_name }}</a> ({{ person.organization }})<br>{{ person.position }}
+      </p>
+      {% endif %}
+  {% endfor %}
+
+ 
+
+  </article>
+
+  <article class="team-content-right">
+
       <h1>Researchers</h1>
 
       {% for person in site.persons %}
@@ -36,22 +53,11 @@ layout: default
       {% endfor %}
 
   </article>
-
-  <article class="team-content-right">
-
-      <h1>Staff</h1>
-
-      {% for person in site.persons %}
-      {% if person.role == "staff") %}
-      <p>
-      <img alt="{{ person.first_name }} {{ person.last_name }}" class="person-image-small" src="{{ site.baseurl }}{{ person.image }}">
-      <a href="{{ person.website }}">{{ person.first_name }} {{ person.last_name }}</a> ({{ person.organization }})<br>{{ person.position }}
-      </p>
-      {% endif %}
-      {% endfor %}
+    
 
 
-      <h1>Scientific Advisors</h1>
+  <article class="team-content">
+   <h1>Scientific Advisors</h1>
 
       {% for person in site.persons %}
       {% if person.role == "advisor") %}
@@ -61,7 +67,7 @@ layout: default
       </p>
       {% endif %}
       {% endfor %}
-
+  
   </article>
 
 </div>

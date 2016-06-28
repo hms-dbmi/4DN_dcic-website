@@ -1,10 +1,10 @@
 ---
 layout: position
 key: software-developer-01
-title: Software Developer
+title: Front End / Full Stack Web Developer
 category: developer
 site: Harvard Medical School 
-detail_link: https://sjobs.brassring.com/tgwebhost/jobdetails.aspx?jobId=1191750&PartnerId=25240&SiteId=5341
+detail_link: https://sjobs.brassring.com/tgwebhost/jobdetails.aspx?jobId=1220839&PartnerId=25240&SiteId=5341&type=mail
 ---
 # Duties & Responsibilities
 We are looking for a web application developer to join the Department of Biomedical Informatics at Harvard Medical School, for an exciting opportunity in building the core data management and analysis framework of a new major NIH initiative.
@@ -27,9 +27,9 @@ The Department of Biomedical Informatics is a leading hub for computational biol
 Applicants should include a link to some of their code in GitHub or another repository hosting service, as well as a cover letter describing why this position interests them and how it fits their experience and interests.     
 
 # Basic Qualificiations
-- Bachelors' degree in Computer Science, Bioinformatics or related field and 3 years' related experience.  
+- Bachelors' degree in Computer Science, Bioinformatics or related field and 3 years' related experience.
 - Experience in developing, testing, and deploying web-based applications.
-- Experience with modern web frameworks (preferably: Python/Django, JavaScript/AngularJS).
+- Experience with modern web frameworks, preferably: JavaScript/AngularJS Python/(Pyramid or Django).
 - Experience with version control systems and team software development (preferably Git).
 
 # Additional Qualifications

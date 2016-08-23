@@ -436,6 +436,11 @@ body {
   @include span-columns(8);
 }
 
+.sideless-content-main {
+  @include page-content();
+  @include span-columns(10);
+}
+
 .home-content-aside {
   @include page-content();
   @include span-columns(4);

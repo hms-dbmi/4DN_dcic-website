@@ -181,6 +181,10 @@ body {
   @include navigation-button($project-color);
 }
 
+.data-button {
+  @include navigation-button($project-color);
+}
+
 .resources-button {
   @include navigation-button($resources-color);
 }
@@ -236,6 +240,10 @@ body {
   @include subpage-title($project-color);
 }
 
+.data-title {
+  @include page-title($project-color);
+}
+
 .person-title {
   @include page-title($team-color);
 }
@@ -243,6 +251,7 @@ body {
 .team-title {
   @include page-title($team-color);
 }
+
 
 .funding-title {
   @include subpage-title($neutral-color);

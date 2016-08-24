@@ -17,11 +17,11 @@ When you complete the study, please share your experience with us using [this go
 
 #  Juicer/Juicebox .hic
 
-### Introduction and Documentation
+## Introduction and Documentation
 
 The Juicer/Juicebox suite of tools and the .hic file format are described in [Aiden Lab website](http://aidenlab.org/software.html). [The Juicer pipeline](http://aidenlab.org/juicer/docs.html) takes fastq files as input and creates .hic files containing normalized contact matrices at multiple resolutions, as well as domain and loop calls. [The Juicebox tools](http://aidenlab.org/commandlinetools/docs.html) read in .hic files and provide visualization and advanced customization of downstream analyses. To create .hic files, users can start with fastq files and run the whole Juicer pipeline or start with the intermeditate text file for valid read pairs, the merged_nodups "pre" format. For advanced users, the .hic file schema is available [here](https://github.com/theaidenlab/juicebox/blob/master/HiC_format_v8.docx).
 
-### Features
+## Features
 
 The .hic format features:
 
@@ -31,9 +31,9 @@ The .hic format features:
 - Extant suite of analysis tools
 - Extant visualization tool.
 
-### Files
+## Files
 
-.hic files for a number of papers can be downloaded from [this link](http://aidenlab.org/data.html). The reviewers can use any sample of their choice, from this set or elsewhere. From this set, we can recommend that reviewers use one, two, or three of the following samples to test out different sequencing depths.
+**.hic files for a number of papers can be downloaded from [this link](http://aidenlab.org/data.html)**. The reviewers can use any sample of their choice, from this set or elsewhere. From this set, we can recommend that reviewers use one, two, or three of the following samples to test out different sequencing depths.
 
 - [GM12878 sample from Rao and Huntley et al. Cell 2014](https://hicfiles.s3.amazonaws.com/hiseq/gm12878/in-situ/combined.hic) with 4.9B contacts.
 - [K562 sample from Rao and Huntley et al. Cell 2014](https://hicfiles.s3.amazonaws.com/hiseq/k562/in-situ/combined.hic) with 930M contacts.
@@ -43,11 +43,11 @@ The .hic format features:
 
 # Cooler .cool
 
-### Introduction and Documentation
+## Introduction and Documentation
 
 The cooler library and .cool file format are described in [the Mirny Lab github repo](https://github.com/mirnylab/cooler/). The cooler python library and command line tools take in a text file for read pairs or contact matrices; store the information in the sparse, compressed, binary .cool format; include utilities for performing out-of-core contact matrix balancing; and perform fast range queries on a contact matrix. The .cool format is a sparse, compressed, binary persistent storage format for Hi-C contact matrices based on HDF5. HDF5 is a general purpose binary container format for large scientific datasets, with bindings in multiple languages. Therefore .cool files can be read in as HDF5 files natively in different languages.
 
-### Features
+## Features
 The .cool format features:
 
 - Flexibility to store one or multiple matrices with varying bin sizes
@@ -56,9 +56,9 @@ The .cool format features:
 - HDF5, which has native bindings in practically all languages
 - out of memory iterative matrix balancing, that can work on very large matrices.
 
-### Files
+## Files
 
-.cool files for a number of papers can be downloaded from [this link](ftp://cooler.csail.mit.edu/coolers). The reviewers can use any sample of their choice, from this set or elsewhere. From this set, we can recommend that reviewers  one, two, or three of the following samples to test out different sequencing depths.
+**.cool files for a number of papers can be downloaded from [this link](ftp://cooler.csail.mit.edu/coolers)**. The reviewers can use any sample of their choice, from this set or elsewhere. From this set, we can recommend that reviewers  one, two, or three of the following samples to test out different sequencing depths.
 
 - Rao2014-GM12878-MboI-allreps-*
 - Rao2014-K562-MboI-allreps-*

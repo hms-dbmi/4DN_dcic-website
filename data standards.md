@@ -43,19 +43,15 @@ The .hic format features:
 
 ### Introduction and Documentation
 
-The .cool files are HDF5 files, following a certain schema. HDF5 is a general purpose binary container format for large scientific datasets.
-
-h5py is a Python library providing low-level bindings to the libhdf5 C-library and a high-level, numpy-aware API to interact with HDF5 files on disk.
-
-Cooler is a flexible binary schema for Hi-C data based on a two-table sparse data model.
+The cooler library and .cool file format are described in [the Mirny Lab github repo](https://github.com/mirnylab/cooler/). The cooler python library and command line tools
+ take in a text file for read pairs or contact matrices; store the information in the sparse, compressed, binary .cool format; include utilities for performing out-of-core contact matrix balancing; and perform fast range queries on a contact matrix. The .cool format is a sparse, compressed, binary persistent storage format for Hi-C contact matrices based on HDF5. HDF5 is a general purpose binary container format for large scientific datasets, with bindings in multiple languages. Therefore .cool files can be read in as HDF5 files natively in different languages.
 
 ### Features
 The .cool format features:
 - Flexibility to store one or multiple matrices with varying bin sizes.
 - python library
-- hdf5 libraries existing multiple languages
-
-on most of which cooler wrappers are not yet developed.
+- Command line tools
+- HDF5, which has native bindings in practically all languages
 - out of memory iterative matrix balancing, that can work on very large matrices.
 
 ### Files

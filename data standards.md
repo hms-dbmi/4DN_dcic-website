@@ -13,6 +13,8 @@ The 4DN Omics Working Group has investigated a variety of options for formats fo
 
 We are currently performing a study to evaluate the usability of the different formats. It should be noted that the two formats contain very similar information; what is being evaluated are the tools around each format and how easy it will be to develop more tools around them (think bam/sam, samtools, Rsamtools etc.). The focus of the study is on the end user who would like to use these files in some bioinformatics analysis. But, in certain cases, users may also need to generate the files, and evaluation on this task is also welcome. This page provides a basic introduction of these file formats and pointers to files for the usability study. 
 
+When you complete the study, please share your experience with us using [this google form](https://goo.gl/forms/YWhyYD60lZHoCtqp2).
+
 #  Juicer/Juicebox .hic
 
 ### Introduction and Documentation
@@ -86,6 +88,7 @@ Here are pointers to reference maps that can be of interest while studying the H
 
 [comment]: # in case the one below does not work on other platforms. [Bill Noble](mailto:wnoble@uw.edu), [Peter Park](mailto:peter_park@HMS.HARVARD.EDU), and [Burak Alver](mailto:burak_alver@hms.harvard.edu).
 
-Please address all questions to [Bill Noble, Peter Park, and Burak Alver](mailto:wnoble@uw.edu,peter_park@HMS.HARVARD.EDU,burak_alver@hms.harvard.edu).
+Please address all questions to [Bill Noble, Peter Park, and Burak Alver](mailto:wnoble@uw.edu,peter_park@HMS.HARVARD.EDU,burak_alver@hms.harvard.edu). When you complete the study, please share your experience with us using [this google form](https://goo.gl/forms/YWhyYD60lZHoCtqp2).
+
 
 

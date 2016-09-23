@@ -13,7 +13,7 @@ __General Inquiries__ \\
 [Burak Alver](mailto:burak_alver@hms.harvard.edu) (Scientific Project Manager)
 
 __Technical Issues__ \\
-[4dn-dcic-technical@hms.harvard.edu](mailto:4dn-dcic-technical@hms.harvard.edu)
+[4DN.DCIC.support@hms-dbmi.atlassian.net](mailto:4DN.DCIC.support@hms-dbmi.atlassian.net)
 
 
 ## Visit Us in Person

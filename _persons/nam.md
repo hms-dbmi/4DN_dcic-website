@@ -6,7 +6,7 @@ key: nam
 permalink: /persons/nam/
 role: researcher
 email: kmnam@g.harvard.edu
-image: /assets/images/team/placeholder.png
+image: /assets/images/team/nam.jpg
 organization: Harvard Medical School
 position: Graduate Student
 website: http://compbio.hms.harvard.edu/people-display

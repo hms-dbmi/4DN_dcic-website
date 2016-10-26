@@ -16,6 +16,7 @@ As a team, we strive to make our tools readily usable by experimental and comput
 The software developer will be part of the small team responsible for the design and implementation of the data management and analysis framework in collaboration with faculty, postdoctoral researchers, and staff. The successful candidate must be able to learn and work independently, yet collaborate effectively with co-workers. The work will take place in a dynamic environment where specifications can change rapidly, so the candidate must be able to be flexible in their software design and implementation.
 
 Responsibilities include:
+
 - Participation in technical analysis, design, and implementation of complex system architecture together with the scientific team.
 - Creation and maintenance of documentation for system builds and application configurations.
 - Adherence to and oversight of team software development methodology.

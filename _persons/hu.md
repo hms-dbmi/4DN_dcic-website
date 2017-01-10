@@ -1,0 +1,13 @@
+---
+layout: person
+first_name: Tum
+last_name: Hu
+key: hu
+permalink: /persons/hu/
+role: researcher
+email: Tim_Hu@hms.harvard.edu
+image: /assets/images/team/hu.jpg
+organization: Harvard Medical School
+position: Postdoctoral Research Fellow
+website: http://pklab.med.harvard.edu/people.html
+---

@@ -1,6 +1,6 @@
 ---
 layout: person
-first_name: Tum
+first_name: Tim
 last_name: Hu
 key: hu
 permalink: /persons/hu/

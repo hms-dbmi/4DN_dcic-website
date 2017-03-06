@@ -16,7 +16,7 @@ layout: default
       <h1>Faculty</h1>
 
       {% for person in site.persons %}
-      {% if person.role == "faculty") %}
+      {% if person.role == "faculty" %}
       <p>
       <img alt="{{ person.first_name }} {{ person.last_name }}" class="person-image-small" src="{{ site.baseurl }}{{ person.image }}">
       <a href="{{ person.website }}">{{ person.first_name }} {{ person.last_name }}</a> ({{ person.organization }})<br>{{ person.position }}
@@ -27,7 +27,7 @@ layout: default
       <h1>Staff</h1>
 
       {% for person in site.persons %}
-      {% if person.role == "staff") %}
+      {% if person.role == "staff" %}
       <p>
       <img alt="{{ person.first_name }} {{ person.last_name }}" class="person-image-small" src="{{ site.baseurl }}{{ person.image }}">
       <a href="{{ person.website }}">{{ person.first_name }} {{ person.last_name }}</a> ({{ person.organization }})<br>{{ person.position }}
@@ -41,7 +41,7 @@ layout: default
       <h1>Researchers</h1>
 
       {% for person in site.persons %}
-      {% if person.role == "researcher") %}
+      {% if person.role == "researcher" %}
       <p>
       <img alt="{{ person.first_name }} {{ person.last_name }}" class="person-image-small" src="{{ site.baseurl }}{{ person.image }}">
       <a href="{{ person.website }}">{{ person.first_name }} {{ person.last_name }}</a> ({{ person.organization }})<br>{{ person.position }}
@@ -56,7 +56,7 @@ layout: default
   <h1>Scientific Advisors</h1>
 
       {% for person in site.persons %}
-      {% if person.role == "advisor") %}
+      {% if person.role == "advisor" %}
       <p>
       <!--<img alt="{{ person.first_name }} {{ person.last_name }}" class="person-image-small" src="{{ person.image }}">-->
       <a href="{{ person.website }}">{{ person.first_name }} {{ person.last_name }}</a> ({{ person.organization }})

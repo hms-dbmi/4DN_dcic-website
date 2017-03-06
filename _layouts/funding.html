@@ -40,13 +40,13 @@ layout: default
           <p>Period: {{grant.time}}</p>
 
           {% for person in site.persons %}
-          {% if grant.recipient == person.key) %}
+          {% if grant.recipient == person.key %}
           <p>Recipient: <a href="{{person.website}}">{{person.first_name}} {{person.last_name}}</a></p>
           {% endif %}
           {% endfor %}
 
           {% for institution in site.institutions %}
-          {% if grant.recipient == institution.key) %}
+          {% if grant.recipient == institution.key %}
           <p>Recipient: <a href="{{institution.website}}">{{institution.name}}</a></p>
           {% endif %}
           {% endfor %}

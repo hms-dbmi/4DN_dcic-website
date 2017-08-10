@@ -1,0 +1,22 @@
+---
+layout: default
+---
+  {% for person in site.persons %}
+{{person.key}}  {{person.first_name}} {{person.last_name}} <br> 
+  {% endfor %}
+  <br><br>
+  <article class="team-content-left">
+  {% for acknowledge in site.acknowledges  %}
+  {% for personkey in  acknowledge.tobeacks  %}
+      {% for person in site.persons %}
+      {% if person.key == personkey %}
+      <p>
+      <img alt="{{ person.first_name }} {{ person.last_name }}" class="person-image-small" src="{{ site.baseurl }}{{ person.image }}">
+      <a href="{{ person.website }}">{{ person.first_name }} {{ person.last_name }}</a> ({{ person.organization }})<br>{{ person.position }}
+      </p>
+      {% endif %}
+{% endfor %}
+  {% endfor %}
+  
+  {% endfor %}
+  </article>

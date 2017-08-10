@@ -32,6 +32,9 @@ collections:
   persons:
     output: false
     permalink: /persons/:path/
+  acknowledges:
+    output: false
+    permalink: /acknowledges/:path/
   institutions:
     output: false
     permalink: /institutions/:path/

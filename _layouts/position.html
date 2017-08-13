@@ -9,9 +9,11 @@ layout: default
 
   <article class="positions-content">
     <h1>{{page.title}}</h1>
-    <ul>
-      <li><a href="{{page.detail_link}}">Details and Application Instructions</a></li>
-    </ul>
+  <ul>  
+  {% if page.detail_link != page.link %}
+    <li><a href="{{page.detail_link}}">Details and Application Instructions</a></li>
+ {% endif %}
+  </ul>
 
     {{ content }}
   </article>

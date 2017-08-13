@@ -1,7 +1,7 @@
 ---
 layout: position
 key: postdoc-vis-01
-category: postdoc
+category: backup
 title: Postdoctoral Fellow in Visualization for Biology
 site: Harvard University
 detail_link: https://www.seas.harvard.edu/academic-affairs/postdoctoral-fellow-positions

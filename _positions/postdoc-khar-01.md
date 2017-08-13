@@ -1,7 +1,7 @@
 ---
 layout: position
 key: postdoc-khar-01
-category: postdoc
+category: backup
 title: Postdoctoral Fellow in Biomedical Informatics (Kharchenko Lab)
 site: Harvard Medical School
 detail_link: http://pklab.med.harvard.edu/positions.html

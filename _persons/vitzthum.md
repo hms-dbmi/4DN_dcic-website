@@ -8,6 +8,6 @@ role: staff
 email: Carl_Vitzthum@hms.harvard.edu
 image: /assets/images/team/vitzthum.png
 organization: Harvard Medical School
-position: Junior Scientific Programmer
+position: Back-End Web Developer
 website: mailto:Carl_Vitzthum@hms.harvard.edu
 ---

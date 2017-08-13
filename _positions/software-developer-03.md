@@ -1,16 +1,15 @@
 ---
 layout: position
-key: software-developer-02
-title: Back-End Web Developer
+key: software-developer-03
+title: Full Stack Web Developer
 category: developer
-site: Harvard Medical School 
-detail_link: https://sjobs.brassring.com/tgwebhost/jobdetails.aspx?jobId=1226276&PartnerId=25240&SiteId=5341&type=mail
+site: Harvard Medical School
 ---
-<br>
 
-**You are** a python web developer who wants
+**You are** a full stack web developer (python/node/react) who wants
 
-- to build open-source cloud-based solutions for a science data portal,
+- to build open-source infrastructure-as-code solutions for a reliable cloud based data portal and processing framework
+- (in the longer run) to build cloud-hybrid integrated solutions for data management and processing.
 - to contribute to science and healthcare,
 - to work in a small team of developers and scientists utilizing modern technologies and following best practises, 
 - to learn from more experienced developers, and mentor junior developers.
@@ -28,7 +27,7 @@ detail_link: https://sjobs.brassring.com/tgwebhost/jobdetails.aspx?jobId=1226276
 
 <br>
 
-**Technologies we use:**
+**Technologies we use**
 
 - Pyramid
 - Node
@@ -40,20 +39,16 @@ detail_link: https://sjobs.brassring.com/tgwebhost/jobdetails.aspx?jobId=1226276
 - Travis / Selenium / Codacy
 - Docker / CWL
 
-<br>
-
 # Basic Qualificiations
-- Bachelors' degree in Computer Science, Bioinformatics or related field and 3 years' related experience.
+- Bachelor's' degree in Computer Science, Bioinformatics or related field and 6 years' related experience.  
 - Experience in developing, testing, and deploying web-based applications.
 - Experience with python web frameworks (preferably Pyramid / Pylons).
 - Experience with version control systems and team software development (preferably Git).
+- Cloud computing architectures (preferably with Amazon Web Services)
 
 # Additional Qualifications
-- ElasticSearch
-- Cloud computing architectures (preferably with Amazon Web Services)
 - Strong Python development skills
 - Previous experience working in an academic environment 
-- MSc in Bioinformatics, Computer Science or a related field 
 - Ability to work independently, manage own time and learn quickly. 
 - Ability to define and solve logical problems for highly technical applications.. 
 - Strong communication skills with both technical and non-technical clients. 
@@ -61,3 +56,6 @@ detail_link: https://sjobs.brassring.com/tgwebhost/jobdetails.aspx?jobId=1226276
 - Experience working with large amounts of Data and building Data pipelines
 - API design
 - Automated testing, Continuous integration/deployment
+
+# To apply
+A cover letter and CV to [burak_alver@hms.harvard.edu](mailto:burak_alver@hms.harvard.edu).

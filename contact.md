@@ -5,16 +5,8 @@ permalink: /contact/
 ---
 # Getting in Touch With Us
 
-We are happy to hear your feedback, suggestions, and ideas.
-
-## Send Us an Email
-
-__General Inquiries__ \\
-[Burak Alver](mailto:burak_alver@hms.harvard.edu) (Scientific Project Manager)
-
-__Technical Issues__ \\
-[4DN.DCIC.support@hms-dbmi.atlassian.net](mailto:4DN.DCIC.support@hms-dbmi.atlassian.net)
-
+We are happy to hear your feedback, suggestions, and ideas. You can
+write to us at [support@4dnucleome.org](mailto:support@4dnucleome.org).
 
 ## Visit Us in Person
 

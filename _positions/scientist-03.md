@@ -5,6 +5,9 @@ title: Senior Bioinformatics Scientist
 category: postdoc
 site: Harvard Medical School
 ---
+
+## Job Description
+
 We are looking for a motivated computational biologist to join an
 interdisciplinary team in building a cloud framework to analyze
 NGS and imaging data on nuclear architecture.
@@ -24,14 +27,12 @@ following tasks:
 - contributing to data curators’ efforts to collect metadata associated with these tools, pipelines, and pipeline executions; 
 - contributing to the software developers’ efforts in automating analysis pipeline executions.
 
------------
-
-# Basic Qualificiations
+## Basic Qualificiations
 
 - PhD in Bioinformatics, Computer Science or related field.
 - Proven track record demonstrating strong data analysis skills.
 
-# Additional Experience
+## Additional Experience
 
 - Analysis of high-throughput sequencing data. 
 - Analysis of 3C-based methods. 
@@ -42,5 +43,5 @@ following tasks:
 - OMERO
 - ImageJ
 
-# To apply
-A cover letter and CV to [burak_alver@hms.harvard.edu](mailto:burak_alver@hms.harvard.edu).
+## To apply
+Please send a cover letter and CV to [burak_alver@hms.harvard.edu](mailto:burak_alver@hms.harvard.edu).

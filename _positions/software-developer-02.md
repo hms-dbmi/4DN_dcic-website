@@ -17,7 +17,7 @@ detail_link: https://sjobs.brassring.com/tgwebhost/jobdetails.aspx?jobId=1226276
 - to take courses at the Harvard Extension school at very reasonable costs (up to you).
 - to enjoy other excellent benefits Harvard University has to offer.
 
-<br>
+<br class="no-print" />
 
 **We are** the 4D Nucleome (4DN) Data Coordination and Integration Center (DCIC) at the Department of Biomedical Informatics (DBMI), Harvard Medical School (HMS).
 
@@ -26,7 +26,7 @@ detail_link: https://sjobs.brassring.com/tgwebhost/jobdetails.aspx?jobId=1226276
 - DCIC: This is us; a small team building the core data management and analysis framework of 4DN, making sure that the data from the network will be accessible to scientists around the world. The working environment provides the best features of a startup: fast pace, flexibility, flat hierarchies.
 - 4DN: An exciting NIH initiative to understand the structure of the cell nucleus and its implications for cancer.
 
-<br>
+<br class="no-print" />
 
 **Technologies we use:**
 
@@ -40,7 +40,7 @@ detail_link: https://sjobs.brassring.com/tgwebhost/jobdetails.aspx?jobId=1226276
 - Travis / Selenium / Codacy
 - Docker / CWL
 
-<br>
+<br class="no-print" />
 
 # Basic Qualificiations
 - Bachelors' degree in Computer Science, Bioinformatics or related field and 3 years' related experience.

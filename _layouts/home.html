@@ -70,7 +70,7 @@
 
     <h1>Funding</h1>
     <ul class="funding-list">
-        {% assign sorted_grants = (site.funding | sort: 'agency' %}
+        {% assign sorted_grants = site.funding | sort: 'agency' %}
         {% for grant in sorted_grants %}
       {% if grant.active != empty %}
       {% if agency != grant.agency %}

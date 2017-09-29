@@ -22,8 +22,6 @@ following tasks:
 - evaluating existing bioinformatics tools; 
 - wrapping analysis tools in Docker containers and building analysis pipelines with these tools; 
 - testing and resolving any issues that arise in the execution of these pipelines; 
-- contributing to data curators’ efforts to collect metadata associated with these tools, pipelines, and pipeline executions; 
-- contributing to the software developers’ efforts in automating analysis pipeline executions.
 
 ## Basic Qualificiations
 

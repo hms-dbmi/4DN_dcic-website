@@ -5,6 +5,7 @@
 @import 'neat/neat';
 
 @import 'base/cards';
+@import 'print';
 
 $small-display-columns: 4;
 $medium-display-columns: 12;
@@ -691,7 +692,7 @@ footer {
   }
 
   .institution-logo {
-    height: 30px;
+    height: 36px;
 
     @include media($small-display) {
       height: 20px;

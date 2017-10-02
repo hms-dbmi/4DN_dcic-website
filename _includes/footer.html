@@ -4,7 +4,7 @@
     <div class="footer-list-institutions">
       <ul>
         {% for institution in site.institutions %}
-          <li>
+          <li{% if institution.print == false %} class="no-print"{% endif %}>
             <a href="{{ institution.website }}"><img class="institution-logo" src="{{ site.baseurl }}{{ institution.logo }}" alt="{{ institution.website }}"></a>
           </li>
         {% endfor %}
@@ -13,7 +13,7 @@
  </div>
 
 
-  <div class="footer-content">
+  <div class="footer-content no-print">
     <div class="footer-disclaimer">
       <p>
         Copyright &copy; 2016 Harvard Medical School. All content on this website is licensed under the

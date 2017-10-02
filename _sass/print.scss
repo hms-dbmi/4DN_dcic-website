@@ -7,19 +7,34 @@
         margin-top: 1cm;
         margin-left: 1.25cm;
         margin-right: 1.25cm;
+        margin-bottom: 0.33cm;
+    }
+
+    html, body {
+        height: 100%;
+        margin: 0 !important;
     }
     
     body {
-        margin: 0 !important;
         font-size: 9pt;
         > div.wrap {
             max-width: none;
+            min-height: 100%;
+            display: block;
+            position: relative;
+            padding-bottom: 72px;
+            > footer {
+                position: absolute;
+                bottom: 0px;
+                left: 0px;
+            }
         }
         article.positions-content > h1:first-child{
             display: none;
         }
         header.positions-title > h1 {
             margin: 0;
+            margin-bottom: 5px;
             font-size: 12pt;
             line-height: 12pt;
         }
@@ -61,6 +76,17 @@
         div.footer-content {
             .footer-disclaimer {
                 display: none;
+            }
+            .footer-list-institutions {
+                float: none;
+                left: 0;
+                > ul {
+                    float: none;
+                    left: 0;
+                    li a .institution-logo {
+                        height: 30px;
+                    }
+                }
             }
         }
     }

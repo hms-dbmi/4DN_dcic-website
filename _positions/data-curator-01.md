@@ -4,7 +4,7 @@ key: data-curator-01
 category: curator
 title: Imaging Data Curator
 site: Harvard Medical School 
-detail_link: https://sjobs.brassring.com/tgwebhost/jobdetails.aspx?jobId=1239513&PartnerId=25240&SiteId=5341&type=mail
+detail_link: https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25240&siteid=5341&PageType=JobDetails&jobid=1332027#jobDetails=1332027_5341
              
 ---
 # Duties & Responsibilities

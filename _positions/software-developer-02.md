@@ -4,7 +4,8 @@ key: software-developer-02
 title: Back-End Web Developer
 category: developer
 site: Harvard Medical School 
-detail_link: https://sjobs.brassring.com/tgwebhost/jobdetails.aspx?jobId=1226276&PartnerId=25240&SiteId=5341&type=mail
+detail_link: https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25240&siteid=5341&PageType=JobDetails&jobid=1332016#jobDetails=1332016_5341
+
 ---
 <br>
 

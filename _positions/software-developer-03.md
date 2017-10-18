@@ -4,6 +4,8 @@ key: software-developer-03
 title: Full Stack Web Developer
 category: developer
 site: Harvard Medical School
+detail_link: https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25240&siteid=5341&PageType=JobDetails&jobid=1332025#jobDetails=1332025_5341
+
 ---
 
 **You are** a full stack web developer (python/node/react) who wants

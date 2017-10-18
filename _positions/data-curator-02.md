@@ -40,5 +40,3 @@ This is a two year grant funded position with the strong possibility of renewal.
 - OMERO.
 - REST APIs, relational databases.
 
-## To apply
-Please send a cover letter and CV to [burak_alver@hms.harvard.edu](mailto:burak_alver@hms.harvard.edu).

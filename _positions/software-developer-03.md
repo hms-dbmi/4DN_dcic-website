@@ -59,6 +59,3 @@ detail_link: https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?par
 - Strong communication skills with both technical and non-technical clients. 
 - API design
 - ElasticSearch
-
-# To apply
-A cover letter and CV to [burak_alver@hms.harvard.edu](mailto:burak_alver@hms.harvard.edu).

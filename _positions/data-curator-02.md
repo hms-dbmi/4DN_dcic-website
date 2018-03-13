@@ -1,7 +1,7 @@
 ---
 layout: position
 key: data-curator-02
-category: curator
+category: backup
 title: Senior Data Curator
 site: Harvard Medical School
 detail_link: https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25240&siteid=5341&PageType=JobDetails&jobid=1332096#jobDetails=1332096_5341

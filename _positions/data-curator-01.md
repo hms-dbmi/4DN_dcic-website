@@ -1,10 +1,10 @@
 ---
 layout: position
 key: data-curator-01
-category: curator
+category: backup
 title: Imaging Data Curator
 site: Harvard Medical School 
-detail_link: https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25240&siteid=5341&PageType=JobDetails&jobid=1332027#jobDetails=1332027_5341
+#detail_link: https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25240&siteid=5341&PageType=JobDetails&jobid=1332027#jobDetails=1332027_5341
              
 ---
 # Duties & Responsibilities
@@ -30,3 +30,6 @@ The Department of Biomedical Informatics is a leading hub for computational biol
 - Project management skills including team management, issue management, and change management.
 - Strong verbal and written communication skills.
 - Ability to understand scientific literature, experimental procedures and their limitations, and current needs of the research community.
+
+# To apply
+A cover letter and CV to [burak_alver@hms.harvard.edu](mailto:burak_alver@hms.harvard.edu).

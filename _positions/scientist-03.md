@@ -2,7 +2,7 @@
 layout: position
 key: scientist-03
 title: Senior Bioinformatics Scientist
-category: postdoc
+category: backup
 site: Harvard Medical School
 ---
 

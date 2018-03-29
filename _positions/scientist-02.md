@@ -39,6 +39,7 @@ following tasks:
 - AWS environment.
 - Open-source software development.
 - OMERO
+- R, C/C++, Java
 
 ## To apply
 Please send a cover letter and CV to [burak_alver@hms.harvard.edu](mailto:burak_alver@hms.harvard.edu).

@@ -31,7 +31,7 @@ following tasks:
 
 ## Basic Qualificiations
 
-- PhD in Bioinformatics, Computer Science or related field and 3 years  postdoctoral experience.
+- PhD in Bioinformatics, Computer Science or related field and 3 years postdoctoral experience.
 - Proven track record demonstrating strong data analysis skills.
 - Proficiency in Python
 
@@ -45,6 +45,7 @@ following tasks:
 - AWS environment.
 - Open-source software development.
 - OMERO
+- R, C/C++, Java
 
 ## To apply
 Please send a cover letter and CV to [burak_alver@hms.harvard.edu](mailto:burak_alver@hms.harvard.edu).

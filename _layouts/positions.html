@@ -19,10 +19,10 @@ layout: default
     {% endfor %} 
     </ul>
 
-    <h2>Data Curators</h2>
+    <h2>Software Developers</h2>
     <ul>
     {% for position in site.positions %}
-    {% if position.category == "curator" %}
+    {% if position.category == "developer" %}
       <li><a href="{{ site.baseurl }}{{ position.url }}">{{position.title}}</a> ({{position.site}})</li>
     {% endif %}
     {% endfor %} 

@@ -8,6 +8,6 @@ role: staff
 email: jeremy_johnson@hms.harvard.edu
 image: /assets/images/team/johnson.png
 organization: Harvard Medical School
-position: Lead Senior Software Developer
+position: Software Development Consultant / Architect
 website: https://realpython.com
 ---

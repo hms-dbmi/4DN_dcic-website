@@ -1,7 +1,7 @@
 ---
 layout: position
 key: data-curator-01
-category: curator
+category: backup
 title: Assistant Data Curator
 site: Harvard Medical School 
              

@@ -7,10 +7,11 @@ layout: default
     <h1>{{ page.title | remove: "| 4DN DCIC" }}</h1>
   </header>
 
-  <article class="positions-content">
+  
     {{ content }}
 
-    <h2>Researchers</h2>
+  <article class="positions-content">
+  <h2>Researchers</h2>
     <ul>
     {% for position in site.positions %}
     {% if position.category == "postdoc" %}
@@ -18,16 +19,6 @@ layout: default
     {% endif %}
     {% endfor %} 
     </ul>
-
-    <h2>Software Developers</h2>
-    <ul>
-    {% for position in site.positions %}
-    {% if position.category == "developer" %}
-      <li><a href="{{ site.baseurl }}{{ position.url }}">{{position.title}}</a> ({{position.site}})</li>
-    {% endif %}
-    {% endfor %} 
-    </ul>
-
  
 
   </article>

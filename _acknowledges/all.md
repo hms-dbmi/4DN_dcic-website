@@ -4,21 +4,13 @@ key: allack
 permalink: /acknowledges/allack/
 tobeacks:
 - park
-- gehlenborg
 - alver
-- lee
-- horton
-- jain
-- wangsu
-- kerpedijev
-- lekschas
 - johnson
 - vitzthum
 - balashov
+- lee
 - schroeder
 - kirli
-- mirny
-- abdennur
-- goloborodko
+- reiff
 
 ---

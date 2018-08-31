@@ -1,7 +1,7 @@
 ---
 layout: person
-first_name: Jin
-last_name: Hu
+first_name: Hu
+last_name: Jin
 key: hujin
 permalink: /persons/hujin/
 role: researcher

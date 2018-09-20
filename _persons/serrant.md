@@ -1,6 +1,6 @@
 ---
 layout: person
-first_name: Chat
+first_name: Chad
 last_name: Serrant
 key: serrant
 permalink: /persons/serrant/

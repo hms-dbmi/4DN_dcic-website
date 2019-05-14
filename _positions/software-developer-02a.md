@@ -54,6 +54,7 @@ site: Harvard Medical School
 - Bachelor's degree in Computer Science, Bioinformatics or related field and 3 years' related experience.
 - Experience in developing and testing web-based applications.
 - Strong JavaScript development skills.
+- Requirements may be relaxed for strong candidates with complimentary software and design skills.
 
 <br class="no-print" />
 

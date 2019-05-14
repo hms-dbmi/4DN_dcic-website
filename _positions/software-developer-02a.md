@@ -2,7 +2,7 @@
 layout: position
 key: software-developer-02a
 title: Front-End Web Developer
-category: backup
+category: developer
 site: Harvard Medical School
 
 ---

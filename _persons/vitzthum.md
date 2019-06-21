@@ -8,6 +8,6 @@ role: staff
 email: Carl_Vitzthum@hms.harvard.edu
 image: /assets/images/team/vitzthum.png
 organization: Harvard Medical School
-position: Back-End Web Developer
+position: Senior Software Developer (Back-End)
 website: mailto:Carl_Vitzthum@hms.harvard.edu
 ---

@@ -4,7 +4,7 @@ first_name: Peter
 last_name: Kerpedijev
 key: kerpedijev
 permalink: /persons/kerpedijev/
-role: researcher
+role: alumni
 email: pkerp@hms.harvard.edu
 image: /assets/images/team/kerpedijev.png
 organization: Harvard Medical School

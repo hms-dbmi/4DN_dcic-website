@@ -8,6 +8,6 @@ role: staff
 email: Alexander_balashov@hms.harvard.edu
 image: /assets/images/team/balashov.png
 organization: Harvard Medical School
-position: Front-End Web Developer
+position: Senior Software Developer (Front-End)
 website: http://akb.productions/
 ---

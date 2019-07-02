@@ -2,7 +2,7 @@
 layout: position
 key: software-developer-03
 title: Lead Software Developer
-category: backup
+category: developer
 site: Harvard Medical School
 
 ---

@@ -1,7 +1,7 @@
 ---
 layout: position
 key: data-curator-01
-category: backup
+category: curator
 title: Imaging Data Curator
 site: Harvard Medical School 
 #detail_link: https://sjobs.brassring.com/TGnewUI/Search/home/HomeWithPreLoad?partnerid=25240&siteid=5341&PageType=JobDetails&jobid=1332027#jobDetails=1332027_5341

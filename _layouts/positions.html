@@ -19,6 +19,15 @@ layout: default
     {% endfor %} 
     </ul>
 
+    <h2>Data Curators / Database Engineers</h2>
+    <ul>
+    {% for position in site.positions %}
+    {% if position.category == "curator" %}
+      <li><a href="{{ site.baseurl }}{{ position.url }}">{{position.title}}</a> ({{position.site}})</li>
+    {% endif %}
+    {% endfor %} 
+    </ul>
+
   <h2>Researchers</h2>
     <ul>
     {% for position in site.positions %}

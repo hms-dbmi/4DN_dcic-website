@@ -20,3 +20,21 @@ layout: default
   
   {% endfor %}
   </article>
+
+ <article class="team-content-right">
+
+  {% for acknowledge in site.acknowledges  %}
+  {% for personkey in  acknowledge.right  %}
+
+      {% for person in site.persons %}
+      {% if person.key == personkey %}
+      <p>
+      <img alt="{{ person.first_name }} {{ person.last_name }}" class="person-image-small" src="{{ site.baseurl }}{{ person.image }}">
+      <a href="{{ person.website }}">{{ person.first_name }} {{ person.last_name }}</a> ({{ person.organization }})<br>{{ person.position }}
+      </p>
+      {% endif %}
+      {% endfor %}
+  {% endfor %}
+  
+  {% endfor %}
+  </article>

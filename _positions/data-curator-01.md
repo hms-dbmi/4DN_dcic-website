@@ -41,4 +41,4 @@ This is a one year grant funded position with the strong possibility of renewal.
 - Relational databases.
 
 ### To apply
-A cover letter and CV to [burak_alver@hms.harvard.edu](mailto:burak_alver@hms.harvard.edu).
+Please send a cover letter and CV to Burak Alver ([alver@hms.harvard.edu](mailto:alver@hms.harvard.edu)).

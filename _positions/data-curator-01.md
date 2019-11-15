@@ -24,7 +24,7 @@ The Clinical Genomic Analysis Platform (CGAP) at Harvard Medical School is envis
 The Genomics Data Wrangler will be a key member of the team responsible for managing the organization of the CGAP data. The individual will develop, implement, and maintain the CGAP data model, including the clinical information, variants, curation notes, user roles, and other related data. They will participate in the specification, design, and implementation of tools that integrate, search, and display the data, working closely with the bioinformatic scientists and software engineers. The successful candidate must be able to learn and work independently, yet collaborate effectively with co-workers.
 
 ### Basic Qualificiations
-- PhD in Biology, Bioinformatics, or a related field, or a master’s degree and 3 years' experience in data curation.
+- PhD in Biology, Bioinformatics, or a related field; Or a Master’s Degree and 3 years of relevant experience.
 - Technical expertise in genetics, molecular biology, bioinformatics or related field.
 - Experience with basic computer programming / scripting languages.
 - Experience with high-throughput genomics data
@@ -40,4 +40,4 @@ The Genomics Data Wrangler will be a key member of the team responsible for mana
 - Ability to understand scientific literature, experimental procedures and their limitations, and current needs of the research community.
 
 ### To apply
-Please send a cover letter and CV to Dana Vuzman and Burak Alver ([dvuzman@research.bwh.harvard.edu and alver@hms.harvard.edu](mailto:dvuzman@research.bwh.harvard.edu,alver@hms.harvard.edu))
+Please send a cover letter and CV to Burak Alver ([alver@hms.harvard.edu](mailto:alver@hms.harvard.edu)).

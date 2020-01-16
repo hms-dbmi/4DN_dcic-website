@@ -8,6 +8,6 @@ role: staff
 email: Koray_Kirli@hms.harvard.edu
 image: /assets/images/team/kirli.png
 organization: Harvard Medical School
-position: Data Curator
+position: Senior Data Curator
 website: mailto:Koray_Kirli@hms.harvard.edu
 ---

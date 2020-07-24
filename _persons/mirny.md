@@ -4,7 +4,7 @@ first_name: Leonid
 last_name: Mirny
 key: mirny
 permalink: /persons/mirny/
-role: faculty
+role: management
 email: leonid@mit.edu
 image: /assets/images/team/mirny.jpg
 organization: MIT

@@ -13,10 +13,10 @@ layout: default
   write to us at <a href="mailto:support@4dnucleome.org">support@4dnucleome.org</a>.</p>
     
   <article class="team-content-left">
-      <h1>Faculty</h1>
+      <h1>Management</h1>
 
       {% for person in site.persons %}
-      {% if person.role == "faculty" %}
+      {% if person.role == "management" %}
       <p>
       <img alt="{{ person.first_name }} {{ person.last_name }}" class="person-image-small" src="{{ site.baseurl }}{{ person.image }}">
       <a href="{{ person.website }}">{{ person.first_name }} {{ person.last_name }}</a> ({{ person.organization }})<br>{{ person.position }}
@@ -24,10 +24,10 @@ layout: default
       {% endif %}
       {% endfor %}
 
-      <h1>Researchers</h1>
+      <h1>Scientists</h1>
 
       {% for person in site.persons %}
-      {% if person.role == "researcher" %}
+      {% if person.role == "scientist" %}
       <p>
       <img alt="{{ person.first_name }} {{ person.last_name }}" class="person-image-small" src="{{ site.baseurl }}{{ person.image }}">
       <a href="{{ person.website }}">{{ person.first_name }} {{ person.last_name }}</a> ({{ person.organization }})<br>{{ person.position }}
@@ -38,10 +38,10 @@ layout: default
 
   <article class="team-content-right">
 
-      <h1>Staff</h1>
+      <h1>Developer</h1>
 
       {% for person in site.persons %}
-      {% if person.role == "staff" %}
+      {% if person.role == "developer" %}
       <p>
       <img alt="{{ person.first_name }} {{ person.last_name }}" class="person-image-small" src="{{ site.baseurl }}{{ person.image }}">
       <a href="{{ person.website }}">{{ person.first_name }} {{ person.last_name }}</a> ({{ person.organization }})<br>{{ person.position }}

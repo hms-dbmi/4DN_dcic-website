@@ -4,7 +4,7 @@ first_name: Mayank
 last_name: Choudhary
 key: choudhary
 permalink: /persons/choudhary/
-role: researcher
+role: researcher-1
 email: mayank.nk.choudhary@gmail.com
 image: /assets/images/team/choudhary.png
 organization: Washington University in St. Louis

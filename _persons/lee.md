@@ -4,7 +4,7 @@ first_name: Soohyun
 last_name: Lee
 key: lee
 permalink: /persons/lee/
-role: staff
+role: scientist
 email: duplexa@gmail.com
 image: /assets/images/team/lee.png
 organization: Harvard Medical School

@@ -4,7 +4,7 @@ first_name: Alexander
 last_name: Balashov
 key: balashov
 permalink: /persons/balashov/
-role: staff
+role: developer
 email: Alexander_balashov@hms.harvard.edu
 image: /assets/images/team/balashov.png
 organization: Harvard Medical School

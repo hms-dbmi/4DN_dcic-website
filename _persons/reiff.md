@@ -4,7 +4,7 @@ first_name: Sarah
 last_name: Reiff
 key: reiff
 permalink: /persons/reiff/
-role: staff
+role: scientist
 email: Sarah_Reiff@hms.harvard.edu
 image: /assets/images/team/reiff.png
 organization: Harvard Medical School

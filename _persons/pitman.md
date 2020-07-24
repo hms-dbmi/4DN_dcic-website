@@ -4,7 +4,7 @@ first_name: Kent
 last_name: Pitman
 key: pitman
 permalink: /persons/pitman/
-role: staff
+role: developer
 email: Kent_Pitman@hms.harvard.edu
 image: /assets/images/team/pitman.png
 organization: Harvard Medical School

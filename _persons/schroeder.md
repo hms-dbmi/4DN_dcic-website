@@ -4,7 +4,7 @@ first_name: Andrew
 last_name: Schroeder
 key: schroeder
 permalink: /persons/schroeder/
-role: staff
+role: scientist
 email: Andrew_Schroeder@hms.harvard.edu
 image: /assets/images/team/schroeder.jpg
 organization: Harvard Medical School

@@ -4,7 +4,7 @@ first_name: Feng
 last_name: Yue
 key: yue
 permalink: /persons/yue/
-role: faculty
+role: faculty-1
 email: fyue@hmc.psu.edu
 image: /assets/images/team/yue.png
 organization: Penn State

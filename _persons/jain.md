@@ -4,7 +4,7 @@ first_name: Dhawal
 last_name: Jain
 key: jain
 permalink: /persons/jain/
-role: researcher
+role: alumni
 email: dhawal.sjain@gmail.com
 image: /assets/images/team/jain.png
 organization: Harvard Medical School

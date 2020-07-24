@@ -4,7 +4,7 @@ first_name: Peter
 last_name: Kharchenko
 key: kharchenko
 permalink: /persons/kharchenko/
-role: faculty
+role: faculty-1
 email: peter.kharchenko@post.harvard.edu
 image: /assets/images/team/kharchenko.jpg
 organization: Harvard Medical School

@@ -4,7 +4,7 @@ first_name: Deepak
 last_name: Purushotham
 key: purushotham
 permalink: /persons/purushotham/
-role: researcher
+role: researcher-1
 email: dpurushotham136@gmail.com
 image: /assets/images/team/Deepak.png
 organization: Washington University in St. Louis

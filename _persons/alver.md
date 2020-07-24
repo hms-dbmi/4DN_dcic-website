@@ -4,7 +4,7 @@ first_name: Burak
 last_name: Alver
 key: alver
 permalink: /persons/alver/
-role: staff
+role: management
 email: burak_alver@hms.harvard.edu
 image: /assets/images/team/alver.png
 organization: Harvard Medical School

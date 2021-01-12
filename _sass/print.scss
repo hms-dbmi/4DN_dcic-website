@@ -1,0 +1,97 @@
+@media print {
+    
+
+    // Fonts & Layout
+
+    @page {
+        margin-top: 1.5cm;
+        margin-left: 1.75cm;
+        margin-right: 1.75cm;
+        margin-bottom: 0.25cm;
+    }
+
+    html, body {
+        height: 100%;
+        margin: 0 !important;
+    }
+    
+    body {
+        font-size: 9pt;
+        > div.wrap {
+            max-width: none;
+            min-height: 100%;
+            display: block;
+            position: relative;
+            padding-bottom: 72px;
+            > footer {
+                position: absolute;
+                bottom: 0px;
+                left: 0px;
+            }
+        }
+        article.positions-content > h1:first-child{
+            display: none;
+        }
+        header.positions-title > h1 {
+            margin: 0;
+            margin-bottom: 7px;
+            font-size: 15pt;
+            line-height: 12pt;
+        }
+    }
+
+    .no-print {
+        display: none;
+    }
+
+    hr {
+        margin: 0.33cm 0 0.25cm !important;
+    }
+
+
+
+
+    // Header
+
+    div.navigation {
+        height: auto;
+        margin-bottom: 0pt !important;
+
+        > .logo {
+            h1 {
+                margin: 0;
+                line-height: 11pt;
+                font-size: 11pt;
+                font-weight: 400;
+            }
+        }
+        > div.navigation-buttons {
+            display: none;
+        }
+    }
+
+    // Footer
+
+    footer {
+        div.footer-content {
+            .footer-disclaimer {
+                display: none;
+            }
+            .footer-list-institutions {
+                float: none;
+                left: 0;
+                > ul {
+                    float: none;
+                    left: 0;
+                    li a .institution-logo {
+                        height: 30px;
+                    }
+                }
+            }
+        }
+    }
+    
+
+        
+
+}

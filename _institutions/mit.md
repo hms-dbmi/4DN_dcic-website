@@ -3,6 +3,7 @@ layout: page
 key: mit
 name: Massachusetts Institute of Technology
 location: Cambridge, MA
-website: http://www.mit.edu
+website: http://mirnylab.mit.edu/
 logo: /assets/images/logos/mit.png
+print: false
 ---

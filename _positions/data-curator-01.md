@@ -7,12 +7,12 @@ site: Harvard Medical School
 
 ---
 ### Premise
-- You are a biologist by training. Or a bioinformatician.
+- You are a geneticist by training; computational, clinical, or bench.
 - You can write some code. Or you can see yourself learning how.
 - Disorganized dishwashers make you cringe.
 - You are excited about a non-academic job in an academic setting.
-- You know what researchers need and can work with developers to get it built.
-- And experience in the realm of clinical genetics is a huge plus.
+- You know what geneticists in clinic or research need and you can work with developers to get it built.
+- Experience with variant annotation and interpretation is a plus.
 
 ### Job Description
 We are looking for a motivated Data Curator to join the Department of Biomedical Informatics at Harvard Medical School, for an exciting opportunity in steering how clinical genomics data will be organized, curated, and displayed in a new genomics analysis platform.
